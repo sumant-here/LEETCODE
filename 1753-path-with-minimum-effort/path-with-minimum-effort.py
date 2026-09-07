@@ -20,3 +20,4 @@ class Solution:
                 if neweff < ea[ni][nj]:
                     ea [ni][nj] = neweff
                     heapq.heappush(pq,[neweff,ni,nj])
+# no need to write  -1  or return kind of thisng beacause no path is blocked here  TC - 0(E logV) 0(nxm4 log(nxm))
