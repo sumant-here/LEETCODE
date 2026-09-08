@@ -25,5 +25,6 @@ class Solution:
                 elif new_dist == distance[adjNode]:
                     ways[adjNode] += ways[node]
         return ways[n-1] % mod 
+        #TC O (ELOGV)
 
 
