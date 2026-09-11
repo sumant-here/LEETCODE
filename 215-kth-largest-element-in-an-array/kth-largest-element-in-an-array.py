@@ -11,4 +11,5 @@ class Solution:
                 heapq.heappush(ans,nums[i])
         return ans[0]
 
-        
+        # TC - O(k log k) k for k and log k for heapq
+        # TC - O(n-k) x log(k) bcz . in heapq it will  be on constant 
